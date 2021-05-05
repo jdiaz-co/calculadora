@@ -8,7 +8,7 @@
 	<style type="text/css">
     	#calculadora {background: rgb(250, 122, 2); border: 0;}
     	#calculadora td {padding: 4px;}
-    	.cajita_valor {background-color: #ffffff; color: #467702; border: 1px solid #454545; width: 235px; height: 26px; font-family: Arial, Helvetica; font-size: 20px; line-height: 26px; text-align: right; }
+    	.cajita_valor {background-color: #fff; color: #000000; border: 1px solid #050505; width: 235px; height: 26px; font-family: Arial, Helvetica; font-size: 20px; line-height: 26px; text-align: right; }
     	.boton {width: 48px; border: 1px solid #000; font-family: Arial; font-size: 18px; cursor: hand; background-color: #fff;}
     	.boton_largo { width: 114px; border: 1px solid #000;  font-family: Arial; font-size: 18px; cursor: hand; background-color: #fff;}
     	.funcion {font-weight: bold; color: #b00;}
@@ -113,7 +113,7 @@
 						<input type="Button" id="9" value="9" class="boton" onclick="darNumero('9')">
 					</td>
 					<td>
-						<input type="Button" id="Restar" value="-" class="boton" funcion>
+						<input type="Button" id="Restar" value="-" class="boton funcion" onclick="operar(2)">
 					</td>
 				</tr>
 				<tr>
